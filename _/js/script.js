@@ -1,3 +1,1 @@
-/**
- * Created by liormb on 8/11/14.
- */
+function test(){return"Hello World"}function middleMan(){test()}function anotherTest(){return"Hello Again"}!function(){anotherTest()}();
