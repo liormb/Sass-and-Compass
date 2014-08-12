@@ -2,6 +2,7 @@
 // Variables
 
 $myColor: magenta;
+$warningColor: red;
 
 // CSS Rules
 
@@ -13,10 +14,10 @@ h1 {
   color: $myColor;
 }
 .warning {
-  border: 1px solid blue;
+  border: 1px solid $warningColor;
   border-radius: 4px;
   padding: 10px;
-  background-color: lighten(green, 17%);
+  background-color: lighten($warningColor, 18%);
   color: white;
   text-align: center;
 }

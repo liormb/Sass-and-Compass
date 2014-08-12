@@ -6,9 +6,9 @@ h1 {
   color: magenta; }
 
 .warning {
-  border: 1px solid blue;
+  border: 1px solid red;
   border-radius: 4px;
   padding: 10px;
-  background-color: #00d700;
+  background-color: #ff5c5c;
   color: white;
   text-align: center; }
