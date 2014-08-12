@@ -1,0 +1,22 @@
+
+// Variables
+
+$myColor: magenta;
+
+// CSS Rules
+
+body {
+  background-color: rgb(242,242,242);
+  padding: 20px;
+}
+h1 {
+  color: $myColor;
+}
+.warning {
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: lighten(green, 17%);
+  color: white;
+  text-align: center;
+}

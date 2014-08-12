@@ -1,0 +1,14 @@
+body {
+  background-color: #f2f2f2;
+  padding: 20px; }
+
+h1 {
+  color: magenta; }
+
+.warning {
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #00d700;
+  color: white;
+  text-align: center; }
