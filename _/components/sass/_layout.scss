@@ -1,0 +1,17 @@
+
+// susy layout
+
+@include border-box-sizing;
+
+$total-columns : 12;
+$column-width  : 4em;
+$gutter-width  : 1em;
+$grid-padding  : $gutter-width;
+
+$small         : 30em;
+$medium        : 47em;
+$large         : 75em;
+
+.page {
+  @include container;
+}
