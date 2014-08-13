@@ -1,0 +1,29 @@
+
+// Mixins
+
+@mixin headings {
+  font-family: $font-primary;
+  font-weight: normal;
+  line-height: $fontLineHeight;
+  color: $darkGray;
+  @include text-shadow($palerYellow 1px 1px);
+}
+@mixin fontBasic {
+  font-family: $font-secondary;
+  line-height: 160%;
+}
+@mixin alert {
+  width: 140px;
+  padding: 10px;
+  border: 1px solid $green;
+  border-radius: 4px;
+  background-color: lighten($green, 14%);
+  color: white;
+  text-align: center;
+  transition: 0.5s ease;
+  &:hover {
+    background-color: lighten($orange, 16%);
+    border-color: $orange;
+    cursor: pointer;
+  }
+}
