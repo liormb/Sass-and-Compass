@@ -1,23 +1,9 @@
+@import "compass";
+//@import "compass/reset";
+@import "susy";
 
-// Variables
-
-$myColor: magenta;
-$warningColor: red;
-
-// CSS Rules
-
-body {
-  background-color: rgb(242,242,242);
-  padding: 20px;
-}
-h1 {
-  color: $myColor;
-}
-.warning {
-  border: 1px solid $warningColor;
-  border-radius: 4px;
-  padding: 10px;
-  background-color: lighten($warningColor, 18%);
-  color: white;
-  text-align: center;
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "modules";
